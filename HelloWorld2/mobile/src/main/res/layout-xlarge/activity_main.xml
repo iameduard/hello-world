@@ -10,9 +10,10 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Entrar"
-        tools:layout_editor_absoluteX="368dp"
-        tools:layout_editor_absoluteY="410dp" />
+        android:background="@android:color/transparent"
+        android:text="@string/entrar"
+        tools:layout_editor_absoluteX="380dp"
+        tools:layout_editor_absoluteY="398dp" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -21,6 +22,17 @@
         app:srcCompat="@drawable/fondo4_android"
         tools:layout_editor_absoluteX="-400dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="125dp" />
+        android:layout_marginBottom="121dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenido"
+        android:textColor="@android:color/white"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="184dp" />
 
 </android.support.constraint.ConstraintLayout>
