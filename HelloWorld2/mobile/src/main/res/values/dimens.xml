@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="text_size_orig">36sp</dimen>
+    <dimen name="text_size_orig">50sp</dimen>
+    <dimen name="btn_text_size_orig">40sp</dimen>
+    <dimen name="btn_lan_text_size_orig">30sp</dimen>
+    <dimen name="width_xhdpi">1600dp</dimen>
+    <dimen name="height_xhdpi">1024dp</dimen>
+    <dimen name="text_size_tv">60sp</dimen>
 </resources>

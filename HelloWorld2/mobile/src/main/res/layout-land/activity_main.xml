@@ -12,8 +12,8 @@
         android:layout_height="517dp"
         android:background="@android:color/white"
         app:srcCompat="@drawable/fondo4_android"
-        tools:layout_editor_absoluteX="-100dp"
-        tools:layout_editor_absoluteY="-139dp" />
+        tools:layout_editor_absoluteX="-113dp"
+        tools:layout_editor_absoluteY="-135dp" />
 
     <Button
         android:id="@+id/button2"
@@ -21,7 +21,9 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:text="@string/entrar"
-        tools:layout_editor_absoluteY="95dp"
+        android:textSize="@dimen/btn_lan_text_size_orig"
+        tools:layout_editor_absoluteY="87dp"
+        tools:textColor="@android:color/white"
         app:layout_constraintRight_toRightOf="@+id/textView2"
         app:layout_constraintLeft_toLeftOf="@+id/textView2" />
 
@@ -32,7 +34,7 @@
         android:text="@string/bienvenido"
         android:textSize="@dimen/text_size_orig"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="28dp"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="16dp"
         tools:textColor="@android:color/white" />
 </android.support.constraint.ConstraintLayout>

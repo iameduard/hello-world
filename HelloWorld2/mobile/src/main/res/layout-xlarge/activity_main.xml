@@ -12,27 +12,29 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:text="@string/entrar"
-        tools:layout_editor_absoluteX="380dp"
-        tools:layout_editor_absoluteY="398dp" />
+        tools:layout_editor_absoluteY="154dp"
+        android:textSize="@dimen/btn_lan_text_size_orig"
+        tools:textColor="@android:color/white"
+        app:layout_constraintRight_toRightOf="@+id/textView4"
+        app:layout_constraintLeft_toLeftOf="@+id/textView4" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="1600dp"
-        android:layout_height="1024dp"
+        android:id="@+id/imageView5"
+        android:layout_width="1441dp"
+        android:layout_height="896dp"
         app:srcCompat="@drawable/fondo4_android"
-        tools:layout_editor_absoluteX="-400dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="121dp" />
+        tools:layout_editor_absoluteY="-267dp"
+        tools:layout_editor_absoluteX="-261dp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/bienvenido"
-        android:textColor="@android:color/white"
-        android:textSize="80sp"
+        android:textSize="@dimen/text_size_tv"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="28dp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="219dp"
-        tools:layout_editor_absoluteY="184dp" />
+        tools:textColor="@android:color/white"/>
 
 </android.support.constraint.ConstraintLayout>
